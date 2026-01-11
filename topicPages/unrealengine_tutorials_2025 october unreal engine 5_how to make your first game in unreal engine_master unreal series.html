@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="UnrealEngine Tutorials 2025 October Unreal Engine 5 How to make your first game in Unreal engine Master Unreal Series Tutorials: ">
+    <meta name="author" content="Master YouTube Tutorials">
+
+    <title>UnrealEngine Tutorials 2025 October Unreal Engine 5 How to make your first game in Unreal engine Master Unreal Series Tutorials – Master YouTube Tutorials</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link href="../css/animate.css" rel="stylesheet">
+
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.css">
+    <link rel="stylesheet" href="../css/owl.transitions.css">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+    <!-- Modernizer js -->
+    <script src="../js/modernizr.custom.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        .section-title h3 {
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        .section-title h3::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: #28a745;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            transition: all 0.3s ease;
+        }
+        .section-title h3:hover::after {
+            width: 100%;
+        }
+
+        /* Video Card */
+        .video-card {
+            border: none;
+            padding: 25px;
+            margin-bottom: 25px;
+            background-color: #fff;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        .video-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        .video-desc {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .btn-video {
+            background-color: #28a745;
+            border-color: #28a745;
+            padding: 10px 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn-video:hover {
+            background-color: #1e7e34;
+            transform: translateY(-2px);
+        }
+
+        /* Back Button */
+        .back-btn {
+            margin-bottom: 30px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .back-btn:hover {
+            background-color: #e9ecef;
+        }
+
+    </style>
+
+</head>
+
+<body class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="../index.html">Master YT Tutorials</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="../index.html#page-top">Home</a></li>
+                    <li><a class="page-scroll" href="../index.html#topics">Browse Topics</a></li>
+                    <li><a class="page-scroll" href="../index.html#community">Community & CC</a></li>
+                    <li><a class="page-scroll" href="../index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="page-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 style="color: #28a745; font-weight: bold;">UnrealEngine Tutorials 2025 October Unreal Engine 5 How to make your first game in Unreal engine Master Unreal Series Tutorials</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back Button -->
+    <a href="../index.html#topics" class="back-btn">← Back to Topics</a>
+
+    
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Stop Wasting Performance in Unreal! 🚀 The Secret Behind Infinite Loot Drops (RE4 Example).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Resident Evil 4  Inventory COMPLETE in Unreal Engine 5 (Pick, Rotate, Move, Discard & Equip) Ep 21.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Hold E to Sit – AAA Hold Interaction System ｜ UE5 Interaction System Ep. 38.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Setup GAS in UE5 with C++ ｜ Beginner Friendly Gameplay Attributes Tutorial ｜ Ep 54.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">AAA Inventory Item Design with Data-Only Blueprints ｜ Unreal Engine 5 Guide ｜ EP - 57.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to review item in your game ｜ Pickup Preview in UE5 ｜ Item Interaction ｜ Master Unreal ｜ Ep 13.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Mastering Distance Matching in UE5 – Smooth Start Animations! ｜ Master Unreal Series ｜ Episode 23.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Perfect Weapon Holding in Unreal Engine 5 ｜ Two Bone IK Setup ｜ Master Unreal Ep. 40.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Smart Travel AI That Reacts to the Player – Unreal Engine 5 Tutorial ｜ AAA Behavior ｜ Episode 50.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Mastering Distance Matching in UE5 – Perfect Stop Animations! ｜ Master Unreal Series ｜ Episode 24.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Use Gameplay Effects with Attributes in Unreal Engine 5 ｜ GAS Beginner Tutorial (Ep. 55).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Push Objects in UE5 with Realistic Hand Movement ｜ AAA Interaction System Ep. 44.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Weapon Shortcut System UE5 – Equip from Inventory, Back & Leg Holsters ｜ Master Unreal Series Ep. 41.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Use GAS for Modular Interaction in Unreal Engine 5 (AI + NPC Ready!) ｜ Episode 53.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Push Objects Like AAA Games in UE5 ｜ Interaction System Tutorial ｜ Master Unreal Series (Ep. 43).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Use State Trees for Smart AI in Unreal Engine 5 ｜ AAA Behavior ｜ Episode 51.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Manage your Gameplay Tags in Unreal Engine like this (GAS Guide) ｜ Mastering Unreal： Episode 7.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to make your game character move in 8 directions ｜ Unreal Engine 5 ｜ Mastering Unreal： Episode 3.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Upgrade Your Project to Any Unreal Engine Version.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Understanding Behavior Trees – NPC Lifecycle Explained ｜ Master Unreal Series ｜ Episode 48.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Open Doors Like AAA Games in Unreal Engine 5! ｜ Smooth Animations + Curves ｜ Master Unreal Ep. 35.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">UE5 AAA Interaction System – Open Doors, Sit, Push ｜ Game Dev Ready! ｜ Ep. 45.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Celebrating 1K Subscribers! Unreal Engine Merchant Shop Giveaway!.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Foot Placement & State Transition in Unreal Engine 5 ｜ Master Unreal Series Episode 22.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Create Spatial Inventory in Unreal engine 5 ｜ RE4 Style ｜ Master Unreal Series ｜ Episode 15.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Interact with Doors in Unreal Engine 5 ｜ An Advanced Interaction System ｜ Master Unreal Ep 33.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Walk, Run, and Crouch Animations in Unreal Engine 5 ｜ Mastering Unreal： Episode 5.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to change Character Speed, Acceleration, and More in Unreal Engine  ｜ Master Unreal Episode - 8.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">UE5 Turn In Place System – Smooth & Realistic Character Rotation ｜ Master Unreal Series ｜ Episode 25.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Hold Weapons Properly in Unreal Engine 5 ｜ Hand IK & Gun Grip Setup ｜ Master Unreal ｜ Ep 27.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Add Weapons in Unreal Engine 5 ｜ UE5 Weapon System ｜ Master Unreal Series ｜ Episode 14.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Don’t Use Inheritance for Inventory Systems — Use Fragments Instead! (UE5 Guide) ｜ EP 56.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Drop Loot in your game UE5 ｜ Coins,  ammo, Weapons ｜ UE5 & GAS ｜ Master Unreal ｜ EP 11.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Unreal Engine 5 Inventory Slot System ｜ Smart Item Placement Algorithm Tutorial (Ep. 18).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Inventory Movement in UE5 (Character Preview &  Movement Mechanics) l Resident Evil 4-Style ｜ Ep. 16.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Store & Place Weapons in your game inventory ｜ Master Unreal Series ｜ Ep 17.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Single Tap vs Double Tap ｜ Kicking Doors with Style in Unreal Engine 5 AAA Interaction System Ep. 37.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">UE5 AAA Interaction： Smart Facing Detection for Push⧸Pull ｜ Master Unreal Series (Ep. 42).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Make Smart AI using State Trees in Unreal Engine 5 ｜ AAA Behavior ｜ Episode 52.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Make Your First Game in Unreal Engine 5 in 2025 ｜ Episode 1.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">UE5 Equip Weapon using GAS ｜ Full Guide to Gameplay Ability System ｜ Master Unreal ｜ Ep 28 #ue5 #gas.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Unreal Engine 5 AAA-Style Interaction System Setup ｜ Master Unreal Series Ep. 36.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Watch This to Understand Programming Forever ｜ CPU, RAM, Micro-Level Demo.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">UE5 Smart Door System – Open from Both Sides with One Animation ｜ Master Unreal Ep. 34.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Fix Foot Sliding in Unreal Engine 5 with Stride Warping ｜ Master Unreal Series Episode 9.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Unreal Engine 5 Animation Mastery： Montages, Layering & Blending! ｜ Master Unreal Series ｜ Ep. 29.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Jumping & Falling Animations with Distance Matching in Unreal Engine ｜ Mastering Unreal： Episode 10.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Make your first game animation Like Lyra in Unreal Engine 5 ｜ Master Unreal： Episode 2.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Resident Evil 4-Style Inventory： Move Pointer & Select Items (UE5) ｜ Episode 19.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Unlock Doors with Keys & Locks in UE5 ｜ AAA Interaction System – Ep. 46.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">UE5 Aiming & Locomotion Guide ｜ Rifle & Pistol Aiming Setup ｜ Master Unreal Series ｜ Episode 26.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How To Use Gameplay Tags in Your Game ｜ Unreal Engine 5 ｜ Mastering Unreal： Episode 6.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Pickup items or loot in game UE5 ｜ Pick Up & Use Items ｜ Master Unreal ｜ EP - 12.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Unreal Engine 5： Master Player Architecture! 🔥 Create One Base Class for All Characters ｜ Ep 47.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">🔥 Destroyable Meshes in Unreal Engine 5 ｜ Break Barrels & Objects with Bullets ｜ Master Unreal Ep 32.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Hold E to Sit + Stand – AAA Hold Interaction System ｜ UE5 Interaction System Ep. 39.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Weapon Movement & Interaction ｜ Resident Evil 4 - Style Inventory ｜ Master Unreal (Episode 20).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Unreal Engine 5： Crosshair, Aiming & Shooting System! 🎯 ｜ Master Unreal Series ｜ Ep. 31.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to add mixamo or other characters in unreal engine 5! ｜ Master Unreal Series ｜ Ep. 30.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">How to Create or Convert Your Blueprint Project to C++ in Unreal Engine (Full Guide).mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Smart AI Travel Behavior in Unreal Engine 5 – Follow, Escort, Tail Like AAA Games ｜ Episode 49.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">Use Lyra Animation Layers for Locomotion & Weapons - Mastering Unreal： Episode 4.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 animated fadeInUp">
+                    <div class="video-card">
+                        <h3 class="video-title">2K Subscribers Giveaway! Free Terrain, Map & Character for Unreal Engine.mp4</h3>
+                        <p class="video-desc">Explore advanced Unreal Engine 5 features including Blueprints, lighting, performance optimization, and motion graphics</p>
+                        <a href="" target="_blank" class="btn btn-video">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+
+    <!-- Footer -->
+    <footer class="style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <span class="copyright">Copyright &copy; Master YouTube Tutorials 2026. All Rights Reserved.</span>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="footer-social text-right">
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../asset/js/bootstrap.min.js"></script> <!-- ❗ Fixed: should be 'js/' not 'asset/js/' -->
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/count-to.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/cbpAnimatedHeader.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.fitvids.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
